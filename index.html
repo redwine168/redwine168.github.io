@@ -1,9 +1,95 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-<title>MET-Agile</title>
+	<title>Jonathan Redwine's Portfolio</title>
+
+	<style>
+		#header {
+			text-align: center;
+			margin-top: 25px;
+			font-size: 150%;
+			font-family: arial;
+			color: white;
+		}
+		#bio {
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 50px;
+			font-size: 100%;
+			font-family: arial;
+			color: white;
+		}
+		#projectTitle {
+			margin-top: 20px;
+			margin-left: 10px;
+			font-size: 110%;
+			font-family: arial;
+			color: white;
+			text-decoration:underline;
+		}
+		#projectInfo {
+			margin-top: 5px;
+			margin-left: 25px;
+			margin-bottom: 35px;
+			font-size: 100%;
+			font-family: arial;
+			color: white;
+		}
+		#contactInfo {
+			margin-top: 25px;
+			margin-right: 25px;
+			text-align: right;
+			font-family: arial;
+			color: white;
+		}
+	</style>
 </head>
-<body>
-<h1><center>Welcome to Met-Agile</center></h1>
+<body bgcolor="navy">
+	<center><img src="bioPic.jpeg" alt="pic" width="200" height="200"></center>
+	<div id="header">
+		<h1>Jonathan H. Redwine</h1>
+	</div>
+	<hr>
+	<div id="bio">
+		<h3 style="text-decoration:underline">ABOUT ME</h3>
+		I am currently a student at Boston University as a candidate for a Master of Science degree in computer
+		science.  I graduated from Bucknell University with a Bachelor of Science degree in physics, as well as
+		minors in math and computer science.  After college, I worked for two years at an intellectual
+		property law firm before returning to school to pursue a higher degree in computer science.  I am
+		nearing the end of the program, and I am excited to begin my professional career in software
+		development.
+	</div>
+	<h1 style="color:white; text-decoration:underline;">Projects</h1>
+	<div id="projectTitle">PiC MAP - A Web Application for Managing Projects<br></div>
+	<div id="projectInfo">
+		<a href="https://github.com/PiC-MAP/PiC-MAP.github.io" style="color:aqua">Link to GitHub Repo</a><br>
+		<a href="http://picmapmanager.herokuapp.com/" style="color:aqua">Link to Application</a><br>
+		The application provides a platform for users to manage their projects.  Users can
+		register an account and sign in to create new and view their current projects, as well as make new
+		projects.  Within each project, users can add requirements, issues, and/or tasks, and assign users that 
+		are on the project to each.  Each project also includes a chatroom in which users in the project can
+		communicate.
+	</div>
+	<div id="projectTitle">Analysis of Different Algorithms for Generating Prime Numbers<br></div>
+	<div id="projectInfo">
+		This console application lets the user generate an input number of prime numbers using one of
+		a few algorithms.  In particular, I explored an algorithm that tries to quicken a brute force algorithm
+		for determining the primality of an integer N (checking each integer from 1 to N as a factor of N).  The
+		algorithm relies on the fact that you need only check prime numbers less than N, as checking
+		composite numbers is redundant.
+	</div>
+	<div id="projectTitle">Queue Application<br></div>
+	<div id="projectInfo">
+		This console application provides a simulation for customers in a queue.  The user can first input
+		information for the number of minutes for the simulation to run, as well as information about the			customers entering the queue.  The application includes a graphical display of the current state
+		of the queue.
+	</div>
+	<div id="contactInfo">
+		Jonathan Redwine<br>
+		jredwine1@gmail.com<br>
+		<a href="https://github.com/redwine168" style="color:aqua">GitHub Profile</a><br>
+	</div>
 </body>
+
 </html>
