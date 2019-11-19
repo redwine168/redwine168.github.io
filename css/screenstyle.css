@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica;
+    font-size: 12pt;
+    margin: 3em;
+    color: white;
+    background: linear-gradient(to bottom, #0099ff 0%, #000066 100%);
+}
+
+a {
+    color:aqua;
+}
+
+a:hover {
+    color:pink;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 150%;
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 15px;
+    font-size: 125%;
+    text-decoration: underline;
+}
+
+p {
+    margin-left: 25px;
+    margin-bottom: 35px;
+    font-size: 100%;
+}
+
+.contactInfo {
+    margin-top: 100px;
+    margin-right: 25px;
+    text-align: right;
+}

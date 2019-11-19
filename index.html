@@ -1,96 +1,74 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
 	<title>Jonathan Redwine's Portfolio</title>
-
-	<style>
-		#gradient {
-			background: linear-gradient(to bottom, #0099ff 0%, #000066 100%);
-		}
-		#header {
-			text-align: center;
-			margin-top: 15px;
-			font-size: 150%;
-			font-family: arial;
-			color: white;
-		}
-		#bio {
-			text-align: center;
-			margin-top: 10px;
-			margin-bottom: 50px;
-			font-size: 100%;
-			font-family: arial;
-			color: white;
-		}
-		#projectTitle {
-			margin-top: 20px;
-			margin-left: 10px;
-			font-size: 110%;
-			font-family: arial;
-			color: white;
-			text-decoration:underline;
-		}
-		#projectInfo {
-			margin-top: 5px;
-			margin-left: 25px;
-			margin-bottom: 35px;
-			font-size: 100%;
-			font-family: arial;
-			color: white;
-		}
-		#contactInfo {
-			margin-top: 25px;
-			margin-right: 25px;
-			text-align: right;
-			font-family: arial;
-			color: white;
-		}
-	</style>
+    <meta charset="utf-8"/>
+    <link href="css/screenstyle.css" rel="stylesheet">
+    <link href="css/printstyle.css" rel="stylesheet" media="print">
 </head>
 <body>
-	<div id="gradient">
-	<br><br>
-	<center><img src="bioPic3.jpg" alt="pic" width="200" height="200"></center>
-	<div id="header">
-		<h1>Jonathan H. Redwine</h1>
-	</div>
+    <h1>
+        <img src="images/bioPic.jpg" alt="Jonathan Redwine" width="200" height="200"><br>
+        Jonathan H. Redwine
+    </h1>
 	<hr>
-	<div id="bio">
-		<h3 style="text-decoration:underline">ABOUT ME</h3>
-		I am currently a student at Boston University as a candidate for a Master of Science degree in computer science.  I graduated from Bucknell University with a Bachelor of Science degree in physics, as well as minors in math and computer science.  After college, I worked for two years at an intellectual property law firm before returning to school to pursue a higher degree in computer science.  I am nearing the end of the program, and I am excited to begin my professional career in software development.
-	</div>
-	<h1 style="color:white; text-decoration:underline; margin-left:25px;">Projects</h1>
-	<div id="projectTitle">PiC MAP - A Web Application for Managing Projects<br></div>
-	<div id="projectInfo">
-		<a href="https://github.com/PiC-MAP/PiC-MAP.github.io" style="color:aqua">Link to GitHub Repo</a><br>
-		<a href="http://picmapmanager.herokuapp.com/" style="color:aqua">Link to Application</a><br>
-		The application provides a platform for users to manage their projects, facilitating an Agile work environment.  Users can register an account and sign in to view their current projects, create new projects, and join existing projects.  Within each project, users can create project requirements, issues, and/or tasks, and assign users that are working on the project.  Requirements, issues, and tasks can be placed in one of three categories (To Do, Doing, and Done) to assist with organization, and users can include a deadline for each. There is also a chatroom within each project in which users of the project can communicate.
-	</div>
-	<div id="projectTitle">Texas Hold 'Em AI<br></div>
-	<div id="projectInfo">
-		<a href="https://github.com/redwine168/TexasHoldEm" style="color:aqua">Link to Github Repo</a><br>
-		In this application, the user can play against an artificial intelligence agent in a game of 1 vs. 1 Texas Hold 'em.  The application is run from the command line and provides an interface through which the user can play.  The application shows the current state of the board (e.g., cards dealt, current pot size, stack sizes for both the user and the AI).  The AI bases decisions on a range of hands that it thinks the user could have, how many of those hands the AI's hand beats, and the current bet size.
-	</div>
-	<div id="projectTitle">Analysis of Different Algorithms for Generating Prime Numbers<br></div>
-	<div id="projectInfo">
-		<a href="https://github.com/redwine168/PrimeNumberAnalysis" style="color:aqua">Link to GitHub Repo</a><br>
-		This console application examines various algorithms for determining the primality of an integer N.  The program lets the user generate an input number of prime numbers using one of a few algorithms.  In particular, I explored an algorithm that tries to quicken a brute force algorithm for determining the primality of an integer N (checking each integer from 1 to N as a factor of N).  The algorithm relies on the fact that you need only check prime numbers less than N, as checking composite numbers is redundant.
-	</div>
-	<div id="projectTitle">Tic-Tac-Toe AI<br></div>
-	<div id="projectInfo">
-		<a href="https://github.com/redwine168/TicTacToe" style="color:aqua">Link to GitHub Repo</a><br>
-		This console application provides an interface for playing against an AI in Tic-Tac-Toe.  The user may go first or second in a game, and may enter move selections by inputting the index of the location at which they wish to play.  The current state of the board (as well as a board showing move location indices) is displayed after each turn.  The AI is designed according to an algorithm that prevents it from ever losing.
-	</div>
-	<br><br><br>
-	<div id="contactInfo">
+    <h2 style="text-align:center">ABOUT ME</h2>
+    <p style="text-align:center">
+        I am currently a student at Boston University as a candidate for a Master of Science degree
+        in computer science.  I graduated from Bucknell University in 2016 with a Bachelor of
+        Science degree in physics, as well as minors in math and computer science.  After college,
+        I worked for two years at an intellectual property law firm before returning to school to
+        pursue a higher degree in computer science.  I am nearing the end of the program, and I am
+        excited to begin my professional career in software development.
+    </p>
+    <h2>PiC MAP - A Web Application for Managing Projects</h2>
+    <p>
+        <a href="https://github.com/PiC-MAP/PiC-MAP.github.io">Link to GitHub Repo</a><br>
+        <a href="http://picmapmanager.herokuapp.com/">Link to Application</a><br>
+        The application provides a platform for users to manage their projects, facilitating an Agile work
+        environment.  Users can register an account and sign in to view their current projects, create new
+        projects, and join existing projects.  Within each project, users can create project requirements, issues,
+        and/or tasks, and assign users that are working on the project.  Requirements, issues, and tasks can be
+        placed in one of three categories (To Do, Doing, and Done) to assist with organization, and users can
+        include a deadline for each. There is also a chatroom within each project in which users of the project can
+        communicate.
+    </p>
+    
+    <h2>Texas Hold 'Em AI</h2>
+    <p>
+        <a href="https://github.com/redwine168/TexasHoldEm">Link to Github Repo</a><br>
+        In this application, the user can play against an artificial intelligence agent in a game of 1 vs. 1 Texas
+        Hold 'em.  The application is run from the command line and provides an interface through which the user
+        can play.  The application shows the current state of the board (e.g., cards dealt, current pot size, stack
+        sizes for both the user and the AI).  The AI bases decisions on a range of hands that it thinks the user
+        could have, how many of those hands the AI's hand beats, and the current bet size.
+    </p>
+    
+    <h2>Analysis of Different Algorithms for Generating Prime Numbers</h2>
+    <p>
+        <a href="https://github.com/redwine168/PrimeNumberAnalysis">Link to GitHub Repo</a><br>
+        This console application examines various algorithms for determining the primality of an integer N.  The
+        program lets the user generate an input number of prime numbers using one of a few algorithms.  In
+        particular, I explored an algorithm that tries to quicken a brute force algorithm for determining the
+        primality of an integer N (checking each integer from 1 to N as a factor of N).  The algorithm relies on
+        the fact that you need only check prime numbers less than N, as checking composite numbers is redundant.
+    <p>
+    
+    <h2>Tic-Tac-Toe AI</h2>
+    <p>
+        <a href="https://github.com/redwine168/TicTacToe">Link to GitHub Repo</a><br>
+        This console application provides an interface for playing against an AI in Tic-Tac-Toe.  The user may go
+        first or second in a game, and may enter move selections by inputting the index of the location at which
+        they wish to play.  The current state of the board (as well as a board showing move location indices) is
+        displayed after each turn.  The AI is designed according to an algorithm that prevents it from ever losing.
+    </p>
+	<div class="contactInfo">
 		Jonathan Redwine<br>
 		jredwine1@gmail.com<br>
 		<a href="https://github.com/redwine168" style="color:aqua">GitHub Profile</a><br>
 		<a href="http://redwine168.github.io/resume.pdf" style="color:aqua" download>Resume</a>
 	</div>
-	<br><br><br><br>
-	</div>
 </body>
 
-</html>
+</html>	
