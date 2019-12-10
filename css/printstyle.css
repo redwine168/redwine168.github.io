@@ -1,3 +1,4 @@
+
 body {
     font-family: "Times New Roman", Arial, Helvetica;
     color: black;
@@ -7,8 +8,3 @@ body {
 a {
     color:blue;
 }
-
-a:hover {
-    color:lightblue;
-}
-

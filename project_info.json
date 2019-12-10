@@ -1,0 +1,30 @@
+{
+    "project_info": [
+        {
+            "project": {
+                "name": "PiC MAP",
+                "info": "The application provides a platform for users to manage their projects, facilitating an Agile work environment. Users can register an account and sign in to view their current projects, create new projects, and join existing projects. Within each project, users can create project requirements, issues, and/or tasks, and assign users that are working on the project. Requirements, issues, and tasks can be placed in one of three categories (To Do, Doing, and Done) to assist with organization, and users can include a deadline for each. There is also a chatroom within each project in which users of the project can communicate."
+            }
+        },
+        {
+            "project": {
+                "name": "Texas Hold 'em AI",
+                "info": "In this application, the user can play against an artificial intelligence agent in a game of 1 vs. 1 Texas Hold 'em. The application is run from the command line and provides an interface through which the user can play. The application shows the current state of the board (e.g., cards dealt, current pot size, stack sizes for both the user and the AI). The AI bases decisions on a range of hands that it thinks the user could have, how many of those hands the AI's hand beats, and the current bet size."
+            }
+        },
+        {
+            "project": {
+                "name": "Analysis of Different Algorithms for Generating Prime Numbers",
+                "info": "This console application examines various algorithms for determining the primality of an integer N. The program lets the user generate an input number of prime numbers using one of a few algorithms. In particular, I explored an algorithm that tries to quicken a brute force algorithm for determining the primality of an integer N (checking each integer from 1 to N as a factor of N). The algorithm relies on the fact that you need only check prime numbers less than N, as checking composite numbers is redundant."
+            }
+
+        },
+        {
+            "project": {
+                "name": "Tic-Tac-Toe AI",
+                "info": "This console application provides an interface for playing against an AI in Tic-Tac-Toe. The user may go first or second in a game, and may enter move selections by inputting the index of the location at which they wish to play. The current state of the board (as well as a board showing move location indices) is displayed after each turn. The AI is designed according to an algorithm that prevents it from ever losing."
+            }
+
+        }
+    ]
+}

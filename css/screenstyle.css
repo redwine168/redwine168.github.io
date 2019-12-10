@@ -1,17 +1,50 @@
+
 body {
     font-family: Arial, Helvetica;
-    font-size: 12pt;
+    font-size: 14pt;
     margin: 3em;
     color: white;
     background: linear-gradient(to bottom, #0099ff 0%, #000066 100%);
+} 
+
+nav {
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 45px;
+    text-align: center;
 }
+
 
 a {
     color:aqua;
+    padding: 2px;
 }
 
 a:hover {
     color:pink;
+}
+
+.navButton {
+    border-radius: 25px;
+    margin-left:8%;
+    background-color: black;
+    border: white;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 13pt;
+    font-weight: normal;
+}
+
+.button {
+    border-radius:15px;
+    background-color: aqua;
+    border: black;
+    color: black;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: normal;
+    padding: 4px;
 }
 
 h1 {
@@ -35,8 +68,62 @@ p {
     font-size: 100%;
 }
 
-.contactInfo {
+address {
     margin-top: 100px;
     margin-right: 25px;
     text-align: right;
 }
+
+form {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+input {
+    border: 2px solid gray;
+}
+
+textarea {
+    width: 75%;
+    height: 60px;
+}
+
+.errorMessage {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #ff471a;
+}
+
+.mainImg {
+    width: 20%;
+}
+
+.experienceImg {
+    width: 10%;
+}
+
+.projectImg {
+    width: 18%;
+    margin-top: 15px;
+}
+
+.projectInfo {
+    font-size: 90%; 
+}
+
+ul {
+    color: white;
+}
+
+.wrappedElement {
+    border: 2px solid white;
+}
+
+img.wrappedElement {
+    width: 12%;
+}
+
